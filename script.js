@@ -9,7 +9,7 @@ function add(){
 		document.getElementById("itemValue").value = "";
 
 		newItem.addEventListener("click",function(){
-			itemValue.valueL=newItem;
+			document.getElementById("itemValue").value =itemValue;
 			myList.removeChild(newItem);
 
 		});
